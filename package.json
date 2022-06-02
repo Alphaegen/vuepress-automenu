@@ -1,4 +1,16 @@
 {
     "name": "vuepress-automenu",
-    "version": "1.4.1"
+    "description": "A package used for generating a sidemenu based on the file structure" ,
+    "version": "1.4.2",
+    "licence": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Alphaegen/vuepress-automenu"
+    },
+    "keywords": ["Vuepress", "Menu", "Sidebar", "Filestructure", "Automation"],
+    "author": "Alphaegen",
+    "bugs": {
+        "url": "https://github.com/Alphaegen/vuepress-automenu/issues"
+    },
+    "homepage": "https://www.npmjs.com/package/vuepress-automenu"
 }
