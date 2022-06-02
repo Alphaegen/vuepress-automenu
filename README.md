@@ -2,6 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/vuepress-automenu)
 ![npm](https://img.shields.io/npm/dt/vuepress-automenu)
+[![GitHub issues](https://img.shields.io/github/issues/Alphaegen/vuepress-automenu)](https://github.com/Alphaegen/vuepress-automenu/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Alphaegen/vuepress-automenu)](https://github.com/Alphaegen/vuepress-automenu/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Alphaegen/vuepress-automenu)](https://github.com/Alphaegen/vuepress-automenu/blob/main/LICENSE)
 
 A package which gives you the option to automatically generate the sidebar menu structure based on your filestructure.
 
