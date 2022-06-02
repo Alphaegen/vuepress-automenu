@@ -29,3 +29,8 @@ export default defineUserConfig({
     }),
 })
 ```
+
+## Collaboration:
+If you want to report bugs, propose features or view what I'm working on you can use the Github link below.
+
+https://github.com/Alphaegen/vuepress-automenu
