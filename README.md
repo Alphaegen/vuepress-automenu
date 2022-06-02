@@ -1,7 +1,7 @@
 # Vuepress auto-menu
 
-![npm](https://img.shields.io/npm/dt/vuepress-automenu)
 ![npm](https://img.shields.io/npm/v/vuepress-automenu)
+![npm](https://img.shields.io/npm/dt/vuepress-automenu)
 
 A package which gives you the option to automatically generate the sidebar menu structure based on your filestructure.
 
