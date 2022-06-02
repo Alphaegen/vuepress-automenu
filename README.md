@@ -21,7 +21,7 @@ yarn i vuepress-automenu
 ```
 
 ## Usage:
-You use the `getMenuItems(location = 'docs')` function to get all the menu items based on `location` which has `./docs` as default.
+You use the `getMenuItems(location = 'docs')` function to get all the menu items based on `location` which has `{projectfolder}/docs` as default.
 
 ```ts
 const { getMenuItems } = require("vuepress-automenu");
