@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Alphaegen/vuepress-automenu)](https://github.com/Alphaegen/vuepress-automenu/stargazers)
 [![GitHub license](https://img.shields.io/github/license/Alphaegen/vuepress-automenu)](https://github.com/Alphaegen/vuepress-automenu/blob/main/LICENSE)
 
-A package which gives you the option to automatically generate the sidebar menu structure based on your filestructure.
+A package which gives you the option to automatically generate the side and nav menu structure based on your filestructure. The sidebar will be based on folder names and file names and the nav menu will only use folder names.
 
 ## Installation:
 
@@ -21,14 +21,15 @@ yarn i vuepress-automenu
 ```
 
 ## Usage:
-You use the `getMenuItems(location = 'docs')` function to get all the menu items based on `location` which has `{projectfolder}/docs` as default.
+You use the `getSidebarItems()` or `getNavbarItems()` functions, depending on which one you need to get all the menu items. It uses `{projectfolder}/docs` as default location but you can change it by adding your folder as parameter to either of the functions. (like this: `src`)
 
 ```ts
-const { getMenuItems } = require("vuepress-automenu");
+import { getSidebarItems, getNavbarItems } from 'vuepress-automenu';
 
 export default defineUserConfig({
     theme: defaultTheme({
-        sidebar: getMenuItems(),
+        navbar: getNavbarItems()
+        sidebar: getSidebarItems(),
     }),
 })
 ```

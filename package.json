@@ -1,7 +1,7 @@
 {
     "name": "vuepress-automenu",
     "description": "A package used for generating a sidemenu based on the file structure" ,
-    "version": "1.4.2",
+    "version": "1.5.0",
     "licence": "MIT",
     "repository": {
         "type": "git",
