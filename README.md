@@ -28,8 +28,8 @@ import { getSidebarItems, getNavbarItems } from 'vuepress-automenu';
 
 export default defineUserConfig({
     theme: defaultTheme({
-        navbar: getNavbarItems()
-        sidebar: getSidebarItems(),
+        navbar: getNavbarItems(),
+        sidebar: getSidebarItems()
     }),
 })
 ```
