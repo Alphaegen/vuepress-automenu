@@ -8,8 +8,8 @@ function getSidebarItems(docsLocation: string = 'docs') {
     var structure = fs
         .readdirSync(path.join(`${process.cwd()}/${location}`))
 
-        // Prevent the '.veupress' folder from being added to the menu
-        .filter((item: string) => item !== '.vuepress')
+        // Prevents dotfiles from being added to the menu
+        .filter((item: string) => !item.startsWith('.'))
 
         // Keep or put the README.md file as the first element in the array
         .sort((a: string, b: string) => b.includes('README') ? 1 : a.includes('README') ? -1 : 0);
