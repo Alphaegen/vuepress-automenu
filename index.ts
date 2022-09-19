@@ -49,8 +49,8 @@ function getNavbarItems(docsLocation: string = 'docs') {
     // Create array with all folders/files within the 'location' directory
     var structure = fs.readdirSync(path.join(`${process.cwd()}/${location}`))
 
-        // Prevent the '.veupress' folder from being added to the menu
-        .filter((item: string) => item !== '.vuepress')
+        // Prevents dotfiles from being added to the menu
+        .filter((item: string) => !item.startsWith('.'))
 
         // Filter out all files except 'README.md'
         .filter((item: string) =>
